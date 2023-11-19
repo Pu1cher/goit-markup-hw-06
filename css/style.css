@@ -429,6 +429,7 @@ img {
       background-size: cover;
   background-repeat: no-repeat;
   background-size: 320px;
+  
 }
 
 @media screen and (min-device-pixel-ratio: 2) and (max-width: 767px),
@@ -447,7 +448,7 @@ img {
   }
 }
 
-.order-container {
+.order .container {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -951,7 +952,7 @@ img {
     }
   }
 
-  .order-container {
+  .order .container {
     padding: 0;
   }
 
